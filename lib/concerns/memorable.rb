@@ -1,9 +1,9 @@
 
 module Memorable
 
+  @@all = []
+  
     module ClassMethods
-
-      @@all = []
 
       def all
         @@all
