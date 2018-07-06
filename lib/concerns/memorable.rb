@@ -1,3 +1,4 @@
+include 'pry'
 module Memorable
 
     module ClassMethods
@@ -20,6 +21,7 @@ module Memorable
   module InstanceMethods
 
     def initialize
+      binding.pry
       self.class.all << self
     end
 
