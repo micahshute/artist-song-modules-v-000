@@ -5,6 +5,10 @@ module Memorable
 
       @@all = []
 
+      def all 
+        @@all
+      end
+
       def count
         self.class.all.length
       end
