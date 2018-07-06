@@ -4,8 +4,8 @@ module Memorable
     module ClassMethods
 
       @@all = []
-      
-      def all 
+
+      def all
         @@all
       end
       
