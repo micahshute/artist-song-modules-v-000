@@ -6,7 +6,7 @@ class Artist
   include Memorable::InstanceMethods, Paramable
 
   @@artists = []
-  
+
   def self.all
     @@artists
   end
