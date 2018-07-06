@@ -3,7 +3,7 @@ module Memorable
 
     module ClassMethods
 
-      @@all 
+      @@all
       
       def count
         self.class.all.length
@@ -12,7 +12,7 @@ module Memorable
       def reset_all
         self.class.all.clear
       end
-      
+
   end
 
   module InstanceMethods
