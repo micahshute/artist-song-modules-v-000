@@ -2,12 +2,6 @@
 module Memorable
 
     module ClassMethods
-
-      @@all = []
-
-      def all
-        @@all
-      end
       
       def count
         self.all.length
