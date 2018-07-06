@@ -5,12 +5,6 @@ class Artist
   extend Memorable::ClassMethods, Findable
   include Memorable::InstanceMethods, Paramable
 
-  @@artists = []
-
-  def self.all
-    @@artists
-  end
-
   attr_accessor :name
   attr_reader :songs
 
