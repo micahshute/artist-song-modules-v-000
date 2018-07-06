@@ -10,6 +10,7 @@ module Memorable
       def reset_all
         self.class.all.clear
       end
+      
   end
 
   module InstanceMethods
