@@ -10,7 +10,7 @@ module Memorable
       end
 
       def count
-        @all.length
+        @@all.length
       end
 
       def reset_all
