@@ -3,17 +3,17 @@ module Memorable
     module ClassMethods
 
       @@all = []
-      
+
       def all
-        self.class.all
+        @@all
       end
 
       def count
-        self.class.all.length
+        @@all.length
       end
 
       def reset_all
-        self.class.all.clear
+        @@all.clear
       end
   end
 
