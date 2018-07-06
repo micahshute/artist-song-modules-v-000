@@ -20,7 +20,7 @@ module Memorable
   module InstanceMethods
 
     def initialize
-      self.class.all << self
+      @@all << self
     end
 
   end
