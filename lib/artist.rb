@@ -12,6 +12,7 @@ class Artist
   def initialize
     super
     @songs = []
+    binding.pry
   end
 
   def add_song(song)
