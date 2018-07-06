@@ -2,6 +2,8 @@ module Memorable
 
     module ClassMethods
 
+      @@all = []
+      
       def all
         self.class.all
       end
