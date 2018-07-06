@@ -5,16 +5,16 @@ module Memorable
 
       @@all = []
 
-      def all 
+      def all
         @@all
       end
 
       def count
-        self.class.all.length
+        @all.length
       end
 
       def reset_all
-        self.class.all.clear
+        @@all.clear
       end
 
   end
