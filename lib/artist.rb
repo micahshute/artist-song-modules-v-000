@@ -5,7 +5,7 @@ class Artist
   extend Memorable::ClassMethods, Findable
   include Memorable::InstanceMethods, Paramable
 
-  @@artists
+  @@artists = []
   
   def self.all
     @@artists
