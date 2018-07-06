@@ -3,6 +3,8 @@ module Memorable
 
     module ClassMethods
 
+      @@all 
+      
       def count
         self.class.all.length
       end
